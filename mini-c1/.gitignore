@@ -1,0 +1,14 @@
+sdcard-*.img
+linux_tc
+linux
+uboot_tc
+u-boot
+boot
+rootfs
+rootfs.base
+mods
+uInitrd
+mnt
+*~
+*.tmp
+*.tar*
