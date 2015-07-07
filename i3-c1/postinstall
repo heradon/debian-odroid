@@ -22,6 +22,7 @@ echo "root:odroid" | chpasswd
 
 # Set the locale
 sed -i "s/^#[[:space:]]*en_US\.UTF-8\(.*\)/en_US\.UTF-8\1/g" /etc/locale.gen
+sed -i "s/^#[[:space:]]*de_DE\.UTF-8\(.*\)/de_DE\.UTF-8\1/g" /etc/locale.gen
 locale-gen
 
 # Set timezone
