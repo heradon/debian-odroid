@@ -1,5 +1,5 @@
 DIST ?= jessie
-DIST_URL := http://http.debian.net/debian/
+DIST_URL := http://ftp.de.debian.org/debian/
 DIST_ARCH := armhf
 
 ifneq ($(findstring $(DIST),jessie stable),)
